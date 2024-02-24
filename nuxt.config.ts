@@ -3,6 +3,9 @@ export default defineNuxtConfig({
  devtools: { enabled: true },
  plugins: ["@/plugins/antd"],
  modules: ["@nuxtjs/tailwindcss"],
+ app: {
+  baseURL: "/flag_website/",
+ },
  runtimeConfig: {
   indexable: true,
   public: {
